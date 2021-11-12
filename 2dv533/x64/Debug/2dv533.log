@@ -1,0 +1,3 @@
+﻿  task_3.cpp
+C:\Users\jespe\repositories\2dv533\2dv533\task_3.cpp(25,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  2dv533.vcxproj -> C:\Users\jespe\repositories\2dv533\x64\Debug\2dv533.exe
