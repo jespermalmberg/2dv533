@@ -47,9 +47,11 @@ int main()
 void priceCalculation()
 {
 	// Define and initialize constants and variables
-	const double RATE = 25;		// tax rate in percent
+	const double RATE = 25;		// tax rate in percent 
+	//*FIXED* changed from int to double to avoid 'rounding'. 
+
 	double price = 0;			// price per piece
-	double nrOfArticles = 0;	// number of articles *FIXED* changed to double in order to avoid casting.
+	int nrOfArticles = 0;	// number of articles
 	double rateSEK = 0;			// tax rate in SEK
 	double totalPrice = 0;		// price incl. tax rate
 
@@ -58,12 +60,13 @@ void priceCalculation()
 	cin >> price;
 	cout << "Enter the number of articles: "; cin >> nrOfArticles;
 	// Calculate total price and tax rate 
-	rateSEK = totalPrice * RATE;
-	totalPrice = nrOfArticles * price * (1 + RATE);
+	rateSEK = price * (RATE / 100); // *FIXED* changed from totalPrice to price to calculate rateSEK.
+	totalPrice = nrOfArticles * price * (1 + RATE/100);
 
 	// Display result with 2 decimals
 	cout << fixed << showpoint << setprecision(2);
 
 	cout << nrOfArticles << " number of articles cost " << totalPrice << " kr. " << endl
-		<< "Of this " << rateSEK << " kr is the tax rate." << endl;
+		<< "Of this " << rateSEK * nrOfArticles << " kr is the tax rate." << endl; 
+		// *FIXED* multiply rateSEK with nrOfArticles to get the total tax rate.
 }
