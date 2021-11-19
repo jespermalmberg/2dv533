@@ -1,4 +1,4 @@
-﻿  Source.cpp
-C:\Users\jespe\repositories\2dv533\task_5\task_5\Source.cpp(39,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\jespe\repositories\2dv533\task_5\task_5\Source.cpp(40,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+﻿  task_5.cpp
+C:\Users\jespe\repositories\2dv533\task_5\task_5\task_5.cpp(39,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\jespe\repositories\2dv533\task_5\task_5\task_5.cpp(40,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   task_5.vcxproj -> C:\Users\jespe\repositories\2dv533\task_5\x64\Debug\task_5.exe
