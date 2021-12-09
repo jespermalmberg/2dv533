@@ -6,7 +6,7 @@
 // Summary: This program calculates the weekly pay, given hours per week
 // and wages per hour.
 // Version: 1.1
-// Owner: Tommy Löfqvist
+// Owner: Tommy Lï¿½fqvist
 //---------------------------------------------------------------------
 // Log: 2005-03-09 Created the file, Mats!
 // 2009-08-14 Revised by Tommy.Using manipulators to format output
@@ -27,7 +27,7 @@ int main() // *FIXED* main should return an int not void.
 	// Display results 
 	cout << fixed // Floating point format
 		<< setprecision(2) // 2 decimals
-		<< showpoint; // Show trailing zero’es
+		<< showpoint; // Show trailing zeroï¿½es
 
 	cout << " Given an hourly wage of " << hourlyWages << " kr" << endl
 		<< " and the number of hours per week " << hoursPerWeek << endl
