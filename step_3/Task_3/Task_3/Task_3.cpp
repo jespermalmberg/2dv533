@@ -34,7 +34,7 @@ int main()
 //-----------------------------------------------
 long power(long base, long exp) {
 	long result = base;
-	for (int i = 0; i < exp; i++) {
+	for (int i = 1; i < exp; i++) {
 		result = result * base;
 	}
 	return result;
