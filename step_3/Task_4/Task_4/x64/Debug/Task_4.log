@@ -1,0 +1,5 @@
+﻿  Task_4.cpp
+C:\Users\jespe\repositories\2dv533\step_3\Task_4\Task_4\Task_4.cpp(50,42): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\jespe\repositories\2dv533\step_3\Task_4\Task_4\Task_4.cpp(54,42): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\jespe\repositories\2dv533\step_3\Task_4\Task_4\Task_4.cpp(56): warning C4715: 'heightEstimate': not all control paths return a value
+  Task_4.vcxproj -> C:\Users\jespe\repositories\2dv533\step_3\Task_4\x64\Debug\Task_4.exe
