@@ -54,4 +54,31 @@ void print(double sum, double dKr) {
 	cout.width(24); cout << left << "Discount       : " << right << round(dKr) << endl;
 	cout.width(24); cout << left << "Net sum        : " << right << round(sum) << endl;
 	cout << "--------------------------------";
-}void load(double &sum) {	cout << "Enter the sum: ";	cin >> sum;}double discount(double sum) {	if (sum <= 500) {		return 0;	}	if (sum > 500 && sum <= 1000) {		return 5;	}	if (sum > 1000 && sum <= 5000) {		return 10;	}	else {		return 15;	}}
+}
+
+//-----------------------------------------------------------------------
+// load() This function loads the input from the user
+//-----------------------------------------------------------------------
+void load(double &sum) {
+	cout << "Enter the sum: ";
+	cin >> sum;
+
+}
+
+//-----------------------------------------------------------------------
+// discount() This function returns the discount depending on the total sum
+//-----------------------------------------------------------------------
+double discount(double sum) {
+	if (sum <= 500) {
+		return 0;
+	}
+	if (sum > 500 && sum <= 1000) {
+		return 5;
+	}
+	if (sum > 1000 && sum <= 5000) {
+		return 10;
+	}
+	else {
+		return 15;
+	}
+}
