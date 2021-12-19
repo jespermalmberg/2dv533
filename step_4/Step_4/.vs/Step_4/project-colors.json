@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5a4db0e9-72f7-4f19-aaa7-873ccfe0e297": {
+      "ProjectGuid": "5a4db0e9-72f7-4f19-aaa7-873ccfe0e297",
+      "DisplayName": "Step_4",
+      "ColorIndex": 0
+    },
+    "86ef48ef-c9f3-43b4-abd2-fca52546c423": {
+      "ProjectGuid": "86ef48ef-c9f3-43b4-abd2-fca52546c423",
+      "DisplayName": "Task_2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

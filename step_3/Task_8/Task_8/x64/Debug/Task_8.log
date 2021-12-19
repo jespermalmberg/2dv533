@@ -1,0 +1,6 @@
+﻿  Task_8.cpp
+C:\Users\jespe\repositories\2dv533\step_3\Task_8\Task_8\Task_8.cpp(26,7): warning C4101: 'roll': unreferenced local variable
+C:\Users\jespe\repositories\2dv533\step_3\Task_8\Task_8\Task_8.cpp(24,6): warning C4101: 'computerTotalScore': unreferenced local variable
+C:\Users\jespe\repositories\2dv533\step_3\Task_8\Task_8\Task_8.cpp(23,6): warning C4101: 'humanTotalScore': unreferenced local variable
+C:\Users\jespe\repositories\2dv533\step_3\Task_8\Task_8\Task_8.cpp(25,7): warning C4101: 'selection': unreferenced local variable
+  Task_8.vcxproj -> C:\Users\jespe\repositories\2dv533\step_3\Task_8\x64\Debug\Task_8.exe
