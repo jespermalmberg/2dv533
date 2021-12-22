@@ -15,7 +15,22 @@
       "ProjectGuid": "5f30b619-27cc-43ed-b737-f2e021ad402d",
       "DisplayName": "Task_3",
       "ColorIndex": 2
+    },
+    "e5b5e1b6-5682-46bb-be22-4e00028e9347": {
+      "ProjectGuid": "e5b5e1b6-5682-46bb-be22-4e00028e9347",
+      "DisplayName": "Task_4",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "b38fa223-f484-4084-8375-1332d3c941e6": {
+      "ProjectGuid": "b38fa223-f484-4084-8375-1332d3c941e6",
+      "DisplayName": "Task_5",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
