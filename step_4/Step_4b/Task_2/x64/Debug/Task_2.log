@@ -1,0 +1,5 @@
+﻿  Task_2b.cpp
+C:\Users\jespe\repositories\2dv533\step_4\Step_4b\Task_2\Task_2b.cpp(33,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\jespe\repositories\2dv533\step_4\Step_4b\Task_2\Task_2b.cpp(40,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\jespe\repositories\2dv533\step_4\Step_4b\Task_2\Task_2b.cpp(42,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Task_2.vcxproj -> C:\Users\jespe\repositories\2dv533\step_4\Step_4b\x64\Debug\Task_2.exe
