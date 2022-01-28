@@ -15,7 +15,12 @@
       "ProjectGuid": "8bba49da-839c-4885-b59e-f3c9de12921f",
       "DisplayName": "Task_3",
       "ColorIndex": 2
+    },
+    "642b1703-cb08-427c-9ac2-4519acada5d9": {
+      "ProjectGuid": "642b1703-cb08-427c-9ac2-4519acada5d9",
+      "DisplayName": "Task_4",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
