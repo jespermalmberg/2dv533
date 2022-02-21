@@ -34,21 +34,24 @@ int main()
 
 
 		char *ptr; // The pointer
-		ptr = str; // Points to the input string
+		ptr = backWards; // Points to the backwards char array
 
 		int index = 0;
 
 		// Copy the input array backwards to backWards[]
 		// Loop starts at the end of the input string and works backwards
 		for (int i = strlen(str) - 1; i >= 0; i--) {
-
-			backWards[index] = *(ptr + i);
-			index++;
+			*ptr = str[i];
+			ptr++; // Increment by one for each loop
 		}
 
+		// Pointer incremet is last index of array when above loop finishes so I add '\0' here.
+		*ptr = '\0';
+
 		// Print the backwards text to the terminal
-		cout << "The text backwards: "; for (int i = 0; i < strlen(backWards); i++) {
-			cout << backWards[i];
+		cout << "The text backwards: "; 
+		for (char c : backWards) {
+			cout << c;
 		}
 
 		cout << endl;

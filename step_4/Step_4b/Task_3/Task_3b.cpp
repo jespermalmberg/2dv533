@@ -13,7 +13,7 @@
 
 using namespace std;
 // Prototypes
-char* trimwhitespace(char* str);
+char* trimWhitespace(char* str);
 const int MAXLEN = 1000; // Max length of the char array
 
 int main()
@@ -29,7 +29,7 @@ int main()
 		// Get the input
 		cin.getline(str, MAXLEN);
 		// Trim input of whitespaces
-		trimwhitespace(str);
+		trimWhitespace(str);
 			
 		cout << endl;
 
@@ -67,7 +67,7 @@ int main()
 // 
 // Returns a *char pointer to the trimmed string
 //-----------------------------------------------------------------------
-char* trimwhitespace(char* str) {
+char* trimWhitespace(char* str) {
 	
 	char* strPtr = str;			// The string pointer
 

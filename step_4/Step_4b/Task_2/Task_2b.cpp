@@ -38,6 +38,7 @@ int main()
 			if (isspace(str[i])) {
 				copy(str + i, str + lenght, str + 1);
 				index = strlen(str) - i;
+
 				// Iterate backwards and move end of string to new position
 				for (int j = strlen(str); j > index; j--) {
 					str[j] = '\0';
