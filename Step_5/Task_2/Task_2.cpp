@@ -15,7 +15,7 @@ enum Coin { Tails, Heads };
 int main()
 {
 	int frequency0 = 0, frequency1 = 0;
-	Coin face;
+	Coin face;	
 	// Move the call to srand() outside the scope of the for loop in order to get the same seed value for all calls to rand()
 	// The psuedo random generator should only be seeded once, seeding it 10 times within short time period is likely the reason
 	// for the same random numbers beeing generated.
