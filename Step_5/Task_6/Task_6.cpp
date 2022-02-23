@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------
 //-----------------------------------------------------------------------
-// File: Task_5.cpp
-// Summary: 
+// File: Task_6.cpp
+// Summary: This program calculates Pi using randomness
 // Version: 1.0
 // Owner: Jesper Malmberg
 //-----------------------------------------------------------------------
@@ -47,7 +47,7 @@ Coord throwArrow() {
 
 	std::random_device rd;	// Will be used to obtain a seed for the random number engine
 	std::mt19937 gen(rd()); // Standard mersenne_twister_engine seeded with rd()
-	std::uniform_real_distribution<> dis(0.0, 100.0); // 
+	std::uniform_real_distribution<> dis(0.0, 100.0); // Double between 0 - 100
 
 	return Coord{dis(gen),dis(gen)};
 }
